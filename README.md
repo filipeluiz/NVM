@@ -15,7 +15,7 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.23.2/install.sh | 
 ```
 
 
-![node.png](/home/filipe/Área de Trabalho/node.png)
+![node](https://user-images.githubusercontent.com/8229421/29643475-bcda8f04-8845-11e7-8dfd-f890840901e8.png)
 
 
 
@@ -35,7 +35,7 @@ Começar dar o apelido a versão 'nova'
 ```
 nvm alias nova 8.4
 ```
-![node2.png](/home/filipe/Área de Trabalho/node2.png)
+![node2](https://user-images.githubusercontent.com/8229421/29643483-c1a3ebfc-8845-11e7-841a-c03b374c649a.png)
 
 se quiser usar a versão 8.x.x
 
@@ -49,5 +49,5 @@ quer voltar a versão 6.x.x
 nvm use 6
 ```
 
-![node3.png](/home/filipe/Área de Trabalho/node3.png)
+![node3](https://user-images.githubusercontent.com/8229421/29643486-c49ad8fc-8845-11e7-9621-a338deeb4777.png)
 
