@@ -1,53 +1,52 @@
-# NVM e gerenciar as versões do NodeJs 
+# NVM a gerenciar versões do NodeJs
 
 O nvm(Node Version Manager) é um script que gerencia diferentes versões do Node.js
 
-## Instalação
+  
+### Instalação
 
+  
 ```
-curl https://raw.githubusercontent.com/creationix/nvm/v0.23.2/install.sh | bash  
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
-
 ou
-
 ```
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.23.2/install.sh | bash  
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
-
-
-![node](https://user-images.githubusercontent.com/8229421/29643475-bcda8f04-8845-11e7-8dfd-f890840901e8.png)
-
-
-
-pronto e agora vamos ver a versão atual
-
+- Para baixar, compilar e instalar uma versão específica do node.js:
 ```
-nvm current
+$ nvm install 0.10
 ```
-
-instalar para a nova versão 8.4.x do Node.js e rodar
-
+- Para definir a versão default do usuário:
 ```
-nvm install 8.4
+$ nvm use 0.10
 ```
-Começar dar o apelido a versão 'nova'
-
+- Pronto e agora vamos ver a versão atual
 ```
-nvm alias nova 8.4
+$ nvm current
 ```
-![node2](https://user-images.githubusercontent.com/8229421/29643483-c1a3ebfc-8845-11e7-841a-c03b374c649a.png)
-
-se quiser usar a versão 8.x.x
-
+ou
 ```
-nvm use nova
+$ node --version
+```
+- Para listar as versões ja instaladas no sistema:
+```
+$ nvm ls
+```
+- Para listar as versões disponíves para instalar:
+```
+$ nvm ls-remote
 ```
 
-quer voltar a versão 6.x.x
+### Desinstalação
 
+- Para desinstalar uma versão específica:
 ```
-nvm use 6
+$ nvm uninstall 0.10
 ```
 
-![node3](https://user-images.githubusercontent.com/8229421/29643486-c49ad8fc-8845-11e7-9621-a338deeb4777.png)
+Mais informações completo:
+[nvm-sh](https://github.com/nvm-sh/nvm)
+
+
 
