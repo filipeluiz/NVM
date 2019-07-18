@@ -2,6 +2,8 @@
 
 O nvm(Node Version Manager) é um script que gerencia diferentes versões do Node.js
 
+![nodejs](https://user-images.githubusercontent.com/8229421/61498982-dd56f780-a99b-11e9-9dc1-cd6ff269474a.png)
+
   
 ### Instalação
 
@@ -29,6 +31,8 @@ ou
 ```
 $ node --version
 ```
+![Captura de tela de 2019-07-18 20-17-10](https://user-images.githubusercontent.com/8229421/61499130-77b73b00-a99c-11e9-9869-4c2a979137b4.png)
+
 - Para listar as versões ja instaladas no sistema:
 ```
 $ nvm ls
@@ -45,7 +49,7 @@ $ nvm ls-remote
 $ nvm uninstall 0.10
 ```
 
-Mais informações completo:
+Mais informações completas:
 [nvm-sh](https://github.com/nvm-sh/nvm)
 
 
