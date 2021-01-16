@@ -1,6 +1,8 @@
 # NVM a gerenciar versões do NodeJs
 
-O nvm(Node Version Manager) é um script que gerencia diferentes versões do Node.js
+O nvm(Node Version Manager) é um script que gerencia diferentes versões do Node.js. Criei um pequeno tutorial, se vc seguir os passos aqui e a sua versão do nvm se tudo ocorrer bem. Depois de configurar, seu update Node JS vai se tornar fácil.
+
+>Instalei foi no sistema operacional Linux(Debian versão 10).
 
 ![nodejs](https://user-images.githubusercontent.com/8229421/61498982-dd56f780-a99b-11e9-9dc1-cd6ff269474a.png)
 
@@ -9,11 +11,11 @@ O nvm(Node Version Manager) é um script que gerencia diferentes versões do Nod
 
   
 ```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ```
 ou
 ```
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ```
 - Para baixar, compilar e instalar uma versão específica do node.js:
 ```
