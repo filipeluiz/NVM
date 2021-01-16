@@ -4,7 +4,7 @@ O nvm(Node Version Manager) é um script que gerencia diferentes versões do Nod
 
 >Instalei foi no sistema operacional Linux(Debian versão 10).
 
-![nodejs](https://user-images.githubusercontent.com/8229421/61498982-dd56f780-a99b-11e9-9dc1-cd6ff269474a.png)
+![nvm](https://user-images.githubusercontent.com/8229421/104819618-71ae4e80-580d-11eb-9ad2-8d2018d1213d.png)
 
   
 ### Instalação
