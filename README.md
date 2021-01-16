@@ -43,6 +43,22 @@ $ nvm ls
 ```
 $ nvm ls-remote
 ```
+- Para definir a versão mais recente de Node instalada como a padrão:
+ 
+```
+$ nvm alias default node
+```
+- ou para definir como padrão a versão de node instalada em seu computador:
+
+```
+$ nvm alias default system
+```
+
+- ou para definir uma versão instalada específica:
+
+```
+$ nvm alias default v10.10.0
+```
 
 ### Desinstalação
 
